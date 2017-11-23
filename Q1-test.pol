@@ -1,0 +1,7 @@
+No Title     |POLVER05_1
+f(T) = (1*(-Hrx))+To*(ThetaCp)-T*((ThetaCp)+(150*10/10))-100*(150*10/10) #
+Hrx = -20000  #Btu/lb mol
+ThetaCp = 95  #Btu/lb mol.F
+CA0 = 51  #lb mol/hr
+To = 80  #F
+T(min)=10, T(max)=100

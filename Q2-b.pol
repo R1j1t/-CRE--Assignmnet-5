@@ -1,0 +1,15 @@
+No Title     |POLVER05_0
+d(X)/d(V) =   (-ra)/FA0   #
+d(T)/d(V) =  ra*Hrx/(FA0*(30))  #
+FA0 = 0.2 #dm3/s
+ra =   -K*(CA0^2)*((1-X)^2)   #
+k =    0.01   #dm3/mol.s
+CA0 =    0.1   #mol/dm3
+K =   k*exp((E/R)*((1/300)-(1/T)))   #
+E =   10000   #
+R =   2   #
+Hrx =   -6000   #
+V(0)=0
+X(0)=0
+T(0)=350
+V(f)=6000

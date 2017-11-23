@@ -1,0 +1,13 @@
+No Title    |POLVER05_1
+d(T)/d(W) = (ra*Hrx)/(FA0*ThetaCp) #
+d(X)/d(W) = -ra/FA0 #
+ra = -K*(CA0^2)*((1-X)^2) #
+Hrx =   -20000   #
+FA0 = 10 #
+ThetaCp = 50 #
+K = 500000*exp((-30000/2)*((1/323)-(1/T))) #
+CA0 = 1 #
+W(0)=0
+T(0)=450
+X(0)=0
+W(f)=500

@@ -1,0 +1,15 @@
+No Title   |POLVER05_1
+f(T) = (FA0*X/(-ra))-250 #
+f(X) = ((X*(-Hrx))/(ThetaCp))+To-T #
+FA0 = 0.2 #
+ra = -K*(CA0)^2*((1-X)^2) #
+K = k*exp((E/R)*((1/300)-(1/T))) #
+Hrx = -6000  #
+ThetaCp = 30  #
+To = 300  #
+CA0 = 0.1 #
+k = 0.01  #
+E = 10000  #
+R = 2  #
+T(0)=500
+X(0)=.4
